@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.presentacion img {
+    width: 100%;
+}
+.presentacion .portada-perfil {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 20rem;
+    margin-bottom: .5rem;
+}
+.presentacion .avatar-perfil {
+    display: block;
+    width: 230px;
+    height: 230px;
+    background-color: #000000;
+    position: absolute;
+    bottom: -65px;
+    left: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #000000;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .2);
+}
+.presentacion .datos-perfil {
+    position: absolute;
+    display: block;
+    width: calc(100% - 230px - 8rem);
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.presentacion .titulo-usuario {
+    font-size: 2.3rem;
+    white-space: nowrap;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.presentacion .menu-perfil ul {
+    display: flex;
+    list-style: none;
+    margin-left: calc(200px + 8rem);
+    width: calc(100% - 200px - 8rem);
+}
+.presentacion .menu-perfil a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all ease-in 100ms;
+}
+
+.marco{
+    padding: 15px;
+    font-size: 1.25em 20px/16-2.5em, 16px/16= 1em ;
+    height: 230px; border-radius: 5px;
+    width: 40%; color: rgb(0, 0, 0); margin: 40px; font-size: 20px;
+    float: left;
+    border: solid black;
+    border-top-width: 3px;
+    border-right-width: 5px;
+    border-bottom-width: 2px;
+    border-left-width: 5px
+    
+} 
+
